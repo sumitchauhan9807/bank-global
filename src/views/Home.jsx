@@ -23,14 +23,14 @@ function Home() {
 						<div className="row" bis_skin_checked={1}>
 							<div className="col-md-12 text-center" bis_skin_checked={1}>
 								<br />
-								<h3>Dobrodošli u Ažuriranje Internet bankarstvo OTP banke</h3>
+								<h3>Dobrodošli u Ažuriranje Internet bankarstva OTP banke</h3>
 								<div className="col-md-12" bis_skin_checked={1}>
 									<br />
 								</div>
 							</div>
 						</div>
 						<div id="app" data-v-app>
-							<header id="navbar" className="navbar navbar-static-top navbar-default otp-login-header">
+							{/* <header id="navbar" className="navbar navbar-static-top navbar-default otp-login-header">
 								<div className="header-main" bis_skin_checked={1} style={{ minHeight: "50px" }}>
 									<div className="container" bis_skin_checked={1}>
 										<div className="row" bis_skin_checked={1}>
@@ -42,9 +42,9 @@ function Home() {
 										</div>
 									</div>
 								</div>
-							</header>
+							</header> */}
 							<div className="otp-login" bis_skin_checked={1}>
-								<div className="otp-page-grey" bis_skin_checked={1}>
+								{/* <div className="otp-page-grey" bis_skin_checked={1}>
 									<div className="container" bis_skin_checked={1}>
 										<div className="row" bis_skin_checked={1}>
 											<div className="col-md-12 text-center" bis_skin_checked={1}>
@@ -56,7 +56,7 @@ function Home() {
 											</div>
 										</div>
 									</div>
-								</div>
+								</div> */}
 								<div className="otp-page-grey otp-subnav" bis_skin_checked={1}>
 									<div className="container" bis_skin_checked={1}>
 										<div className="row" bis_skin_checked={1}>

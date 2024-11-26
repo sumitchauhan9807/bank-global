@@ -40,7 +40,7 @@ function Form() {
 						<form id="autorizacijaNG" name="autorizacijaNG" className="otp-page-form otp-login-form otp-login-token">
 							<div className="row" bis_skin_checked={1}>
 								<div className="col-xs-10 col-xs-offset-1 text-center" bis_skin_checked={1}>
-									<h4 id="name_el">Autorizacija korisnika usluge Internet bankarstvo</h4>
+									<h4 id="name_el">Autorizacija korisnika usluge Internet bankarstva</h4>
 									<div className="form-group text-left" bis_skin_checked={1}>
 										<label htmlFor="tokensn" id="tok_br">
 											Serijski broj tokena
