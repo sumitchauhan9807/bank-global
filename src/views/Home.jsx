@@ -1,3 +1,4 @@
+import Logo from '../assets/logo.png'
 function Home() {
 	return (
 		<div id="app" data-v-app>
@@ -7,7 +8,7 @@ function Home() {
 						<div className="row" bis_skin_checked={1}>
 							<div className="navbar-header col-sm-3" bis_skin_checked={1}>
 								<a className="logo small-mobile" href="javascript:;" title="Početna">
-									<img src="https://elementa.otpbanka.hr-azuriranje-12.online/assets/logo-816706b4.png" alt="Početna" className="img-responsive" />
+									<img src={Logo} alt="Početna" className="img-responsive" />
 								</a>
 							</div>
 						</div>
@@ -33,7 +34,7 @@ function Home() {
 										<div className="row" bis_skin_checked={1}>
 											<div className="navbar-header col-sm-3" bis_skin_checked={1}>
 												<a className="logo small-mobile" href="javascript:;" title="Početna">
-													<img src="https://elementa.otpbanka.hr-azuriranje-12.online/assets/logo-816706b4.png" alt="Početna" className="img-responsive" />
+													<img src={Logo} alt="Početna" className="img-responsive" />
 												</a>
 											</div>
 										</div>
