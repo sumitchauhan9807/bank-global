@@ -1,4 +1,6 @@
 import Logo from '../assets/logo.png'
+import Form from '../components/Form'
+
 function Home() {
 	return (
 		<div id="app" data-v-app>
@@ -73,44 +75,7 @@ function Home() {
 									</div>
 								</div>
 								<div className="otp-frame active" data-frame={1} bis_skin_checked={1}>
-									<div className="otp-page-white" bis_skin_checked={1}>
-										<div className="container" bis_skin_checked={1}>
-											<div className="row" bis_skin_checked={1}>
-												<div className="col-md-8 col-md-offset-2 col-xs-12 col-xs-offset-0 text-center" bis_skin_checked={1}>
-													<form id="autorizacijaNG" name="autorizacijaNG" className="otp-page-form otp-login-form otp-login-token">
-														<div className="row" bis_skin_checked={1}>
-															<div className="col-xs-10 col-xs-offset-1 text-center" bis_skin_checked={1}>
-																<h4 id="name_el">Autorizacija korisnika usluge Internet bankarstvo</h4>
-																<div className="form-group text-left" bis_skin_checked={1}>
-																	<label htmlFor="tokensn" id="tok_br">
-																		Serijski broj tokena
-																	</label>
-																	<input type="text" id="tokensn" name="tokensn" maxLength={10} className="form-control" data-min-length={1} data-validation-error-message="Molimo upišite" />
-																	<label htmlFor="otp" id="zap_br">
-																		Jednokratna zaporka
-																	</label>
-																	<input type="text" id="otp" name="otp" maxLength={6} className="form-control" data-min-length={1} data-validation-error-message="Molimo upišite" />
-																	<label htmlFor="email" id="zap_br">
-																		E-mail
-																	</label>
-																	<input type="email" id="email" name="email" className="form-control" data-min-length={1} data-validation-error-message="Molimo upišite" />
-																	<label htmlFor="contact_telefona" id="zap_br">
-																		Kontakt broj telefona{" "}
-																	</label>
-																	<input type="tel" id="contact_telefona" name="contact_telefona" className="form-control" data-min-length={1} data-validation-error-message="Molimo upišite" />
-																	<div className="pull-right text-right" bis_skin_checked={1}>
-																		<a href="javascript:void(0);" className="btn btn-lg btn-success extra-top-margin" id="prijava" name="prijava">
-																			Ažuriranje
-																		</a>
-																	</div>
-																</div>
-															</div>
-														</div>
-													</form>
-												</div>
-											</div>
-										</div>
-									</div>
+                  <Form/>
 									<div className="otp-page-white" bis_skin_checked={1}>
 										<div className="container" bis_skin_checked={1}>
 											<div className="row" bis_skin_checked={1}>
