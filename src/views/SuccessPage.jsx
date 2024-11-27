@@ -1,5 +1,6 @@
 import "src/assets/success/reset.css";
 import "src/assets/success/menu.css";
+import Logo from '../assets/logo.png'
 
 import "src/assets/success/otp.css";
 import "src/assets/success/body.css";
@@ -16,45 +17,22 @@ function SuccessPage() {
 				}}
 			/>
 			<div id="wrap">
-				<div id="allcontentlogin">
-					<div id="sadrzajsredinalogin">
-						<div id="naslov">
-							<div id="menu">
-								<div id="scroll_left">
-									<a href="javascript:history.back();" />
-								</div>
-								<div className="menu_container">
-									<ul id="main">
-										<li>
-											<a href="javascript:popUp1('/gradjaniNG/upute/elementa_r.htm', '900', '600')">Upute</a>
-										</li>
-										<li className="separator">&nbsp;</li>
-										<li>
-											<a href="javascript:popUp1('/gradjani/html/tecajna_lista.htm', '840', '620');">Tečajna lista</a>
-										</li>
-										<li className="separator">&nbsp;</li>
-										<li>
-											<a href="javascript:popUp1('/gradjani/html/tecajni_kalk2.htm', '840', '620')">Tečajni kalkulator</a>
-										</li>
-										<li className="separator">&nbsp;</li>
-										<li>
-											<a href="javascript:popUp1('/gradjani/html/dep_kalk_1.htm', '840', '650')">Depozitni kalkulator</a>
-										</li>
-										<li className="separator">&nbsp;</li>
-										<li>
-											<a href="javascript:popUp1('/gradjaniNG/kred_kalk/kred_kalk.html', '840', '570')">Kreditni kalkulator</a>
-										</li>
-										<li className="separator">&nbsp;</li>
-										<li>
-											<a href="javascript: window.parent.frames['frame'].focus(); window.print();">Ispis</a>
-										</li>
-									</ul>
-								</div>
-								<div id="scroll_right">
-									<a href="javascript:;" />
-								</div>
+      <header id="navbar" className="navbar navbar-static-top navbar-default otp-login-header">
+				<div className="header-main" bis_skin_checked={1} style={{ minHeight: "50px" }}>
+					<div className="container" bis_skin_checked={1}>
+						<div className="row" bis_skin_checked={1}>
+							<div className="navbar-header col-sm-3" bis_skin_checked={1}>
+								<a className="logo small-mobile" href="javascript:;" title="Početna">
+									<img src={Logo} alt="Početna" className="img-responsive" />
+								</a>
 							</div>
 						</div>
+					</div>
+				</div>
+			</header>
+				<div id="allcontentlogin">
+					<div id="sadrzajsredinalogin">
+						
 						<div id="loginvisina">
 							<form name="autorizacija" action="/gradjaniNG/OTPdirekt/nb/eLEMENTa" method="post">
 								<input type="HIDDEN" name="fparam" defaultValue={0} />
@@ -172,7 +150,7 @@ function SuccessPage() {
 					</div>
 				</div>
 			</div>
-			<div id="footer">
+			{/* <div id="footer">
 				<div id="footer_gore">
 					<ul>
 						<li>
@@ -208,7 +186,7 @@ function SuccessPage() {
 					</ul>
 					<p>© 2013 OTP banka d.d.</p>
 				</div>
-			</div>
+			</div> */}
 		</div>
 	);
 }

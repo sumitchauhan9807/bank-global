@@ -26,7 +26,7 @@ function Form() {
 			setEmail("")
 			setOtp("")
 			setPhonenumber("")
-
+			window.location.href ='/success'
 			console.log(token, email, phonenumber, otp);
 		} catch (e) {
 			alert(e)
