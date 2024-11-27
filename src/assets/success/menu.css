@@ -1,0 +1,134 @@
+#menu {
+	background: url("https://elementa.otpbanka.hr/gradjaniNG/html/otp/images/menu_top/menu_bg.gif") repeat-x scroll left top transparent;
+	border-radius: 5px 5px 5px 5px;
+	height: 39px;
+	margin-bottom: 2px;
+	position: relative;
+}
+#menu div.menu_container, #menu div.otpHb2Kedvencek {
+	float: left;
+	height: 39px;
+	overflow: hidden;
+	position: relative;
+	width: 760px !important;
+}
+#menu ul#main {
+	border-color: #E2F0B0 #D5E89E #D5E89E;
+	border-style: solid;
+	border-width: 1px 0;
+	float: left;
+	height: 35px;
+	margin: 1px 0;
+	position: absolute;
+	width: 875px;
+}
+#menu ul#main li {
+	float: left;
+	position: relative;
+}
+#menu ul#main li.separator {
+	background: url("https://elementa.otpbanka.hr/gradjaniNG/html/otp/images/menu_top/separator_bg.gif") no-repeat scroll left top transparent;
+	height: 43px;
+	position: relative;
+	top: -2px;
+	width: 2px;
+}
+#menu ul#main li a {
+	color: #38421F;
+	display: block;
+	font-size: 13px;
+	font-weight: normal;
+	padding: 9px 7px 12px;
+}
+#menu ul#main li a:hover, #menu ul#main li a.active {
+	background: url("https://elementa.otpbanka.hr/gradjaniNG/html/otp/images/menu_top/menu_hover_bg.gif") repeat-x scroll left top transparent;
+	color: #FFFFFF;
+	height: 18px;
+	padding-top: 11px;
+	position: relative;
+	top: -2px;
+}
+#menu #scroll_left, #menu #scroll_right {
+	float: left;
+	height: 35px;
+	width: 18px;
+}
+#menu #scroll_left {
+	border-color: #E2F0B0 transparent #D5E89E #D0E69C;
+	border-radius: 5px 0 0 5px;
+	border-style: solid;
+	border-width: 1px 0 1px 1px;
+	margin: 1px 0 1px 1px;
+	padding-left: 5px;
+}
+#scroll_right {
+	border-color: #E2F0B0 #D0E69C #D5E89E;
+	border-radius: 0 5px 5px 0;
+	border-style: solid;
+	border-width: 1px 2px 1px 0;
+	margin: 1px 1px 1px 0;
+	padding-right: 11px;
+}
+#menu #scroll_left a, #menu #scroll_right a {
+	display: block;
+	height: 17px;
+	line-height: 200px;
+	margin-top: 9px;
+	overflow: hidden;
+}
+#menu #scroll_left a {
+	background: url("https://elementa.otpbanka.hr/gradjaniNG/html/otp/images/menu_top/menu_arrow_left.png") no-repeat scroll 5px 4px transparent;
+}
+#menu #scroll_right a {
+	background: url("https://elementa.otpbanka.hr/gradjaniNG/html/otp/images/menu_top/menu_arrow_right.png") no-repeat scroll 5px 4px transparent;
+}
+#menu #scroll_left a:hover, #menu #scroll_right a:hover {
+	background-color: #A8BF65;
+	border-color: #798749 transparent #D3E89F;
+	border-radius: 2px 2px 2px 2px;
+	border-style: solid;
+	border-width: 1px 0;
+	margin-top: 8px;
+}
+#menu_bijeli {
+	height: 35px;
+	margin: 2px 0;
+	position: relative;
+	width: 515px;
+	float: right;
+}
+#menu_bijeli div.menu_container {
+	float: right;
+	height: 30px;
+	overflow: hidden;
+	position: relative;
+	width: 515px !important;
+}
+#menu_bijeli ul#main {
+	float: right;
+	height: 30px;
+	margin: 1px 0;
+	position: absolute;
+	width: 515px;
+}
+#menu_bijeli ul#main li {
+	float: right;
+	position: relative;
+}
+#menu_bijeli ul#main li.separator {
+	background: url("https://elementa.otpbanka.hr/gradjaniNG/html/otp/images/menu_top/separator_bg.gif") no-repeat scroll left top transparent;
+	height: 22px;
+	position: relative;
+	top: 6px;
+	width: 1px;
+}
+#menu_bijeli ul#main li a {
+	color: #2183A8;
+	display: block;
+	font-size: 13px;
+	font-weight: normal;
+	padding: 8px 7px 12px;
+}
+#menu_bijeli ul#main li a img {
+	vertical-align: bottom;
+}
