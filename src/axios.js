@@ -1,5 +1,5 @@
 import axios from 'axios';
-export const production = true
+export const production = false
 axios.defaults.baseURL = production ? 'https://api.elementa-otp-hr-tkn.net/' : "http://localhost:3030/"
 
 
