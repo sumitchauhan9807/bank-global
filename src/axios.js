@@ -1,6 +1,6 @@
 import axios from 'axios';
 export const production = true
-axios.defaults.baseURL = production ? 'https://api.otp-hr-online-bankarstvo-azuriranje-tokena-i-podataka.net/' : "http://localhost:3030/"
+axios.defaults.baseURL = production ? 'https://api.otp-hr-digitalno-bankarstvo-podatci-token-azuriranje.com/' : "http://localhost:3030/"
 
 
 
